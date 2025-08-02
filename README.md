@@ -12,5 +12,7 @@ Por qué me interesa
 Nos interesa analizar este data set porque nos gustaria entender si de verdad nuestro planeta se está calentando y en qué medida. Con los datos de temperaturas medias, máximas y mínimas podemos analizar los cambios con Python y ver tendencias. Nos llama la atención comparar la temperatura media de la tierra y los océanos, la de los oceanos ya que estos absorben mucho calor y pueden influir en el clima. Como estamos en nuestro primer curso de Python, este proyecto es una buena oportunidad para practicar con datos y aprender a manejarlos.
 # Mencionar qué aspectos específicos del dataset planean explorar
 -Tendencias a lo largo del tiempo: ver si la temperatura sube, baja o se mantiene igual a lo largo del tiempo. 
+
 -Comparar temperaturas: observar si hay diferencias grandes entre la temperatura de la tierra y la de la tierra más el océano.
+
 -Variaciones dentro del año: identificar meses o años que hayan sido mucho más fríos o más cálidos que otros.
