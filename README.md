@@ -18,21 +18,21 @@ Como parte del proyecto, nos gustaría explorar si hay años con cambios más br
 
 -Variaciones dentro del año: identificar meses o años que hayan sido mucho más fríos o más cálidos que otros.
 
-#Plan de Análisis: Uso del Internet a Nivel Global
-#Preguntas de investigación
+# Plan de Análisis: Uso del Internet a Nivel Global
+# Preguntas de investigación
 1.	¿Cómo ha evolucionado el porcentaje de la población con acceso a internet a lo largo del tiempo a nivel global y regional?
 2.	¿Existen diferencias significativas en el acceso a internet entre continentes?
 3.	¿Existe una correlación entre el porcentaje de la población con acceso a internet y el año?
-#Hipótesis iniciales
+# Hipótesis iniciales
 1.	Se espera observar una tendencia creciente del acceso a internet a nivel global desde el año 1990 hasta la fecha.
 2.	Las regiones desarrolladas, como Europa y América del Norte, tendrán mayores porcentajes de acceso a internet que regiones como África o Asia Central.
 3.	Se prevé una correlación positiva significativa entre el porcentaje de la población que utiliza internet y variables socioeconómicas (si se integran otras bases de datos complementarias).
-#Visualizaciones planeadas
+# Visualizaciones planeadas
 1.	Gráfico de líneas: Se utilizará para mostrar la evolución temporal del acceso a internet por continente y a nivel global. Esto permitirá identificar tendencias generales y brechas entre regiones.
 2.	Gráfico de barras: Se empleará para comparar el porcentaje de acceso a internet entre países en un año específico.
 3.	Mapa geográfico: Para visualizar cómo varía el acceso a internet por país en el año más reciente.
 4.	Gráfico de dispersión: Mostrará la relación entre el año y el porcentaje de uso de internet, permitiendo analizar la correlación esperada.
 5.	Histograma: Mostrará la distribución de países según su porcentaje de población con acceso a internet en un año determinado. Ayudará a identificar cuántos países están en rangos altos, medios o bajos de acceso.
-#Metodología
+# Metodología
 El análisis será realizado en Python utilizando las librerías pandas y matplotlib para gráficos interactivos. Primero se cargará y explorará el dataset, evaluando su estructura, variables y valores faltantes. Luego se realizará un análisis descriptivo general: cálculo de media, mediana, desviación estándar y percentiles.Luego, se agruparán los datos por región y por año para hacer comparaciones y estudiar tendencias. También se calcularán correlaciones entre variables relevantes. Si se decide integrar variables externas (como el PIB), se realizará una limpieza y fusión previa de datasets. Finalmente, se generarán las cinco visualizaciones requeridas para respaldar las respuestas a las preguntas de investigación. Este análisis permitirá entender mejor cómo se ha distribuido el acceso a internet en el mundo, y cómo se relaciona con el contexto regional y económico.
 
