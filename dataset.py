@@ -164,21 +164,30 @@ plt.legend()
 plt.grid(True, linestyle='--', alpha=0.7)
 plt.show()
 
-# Crear grupos de 5 años
-df['Year_Group'] = pd.cut(df[year_col], bins=range(1990, 2026, 5))
+# Gráfico de barras por región
+# -------------------------------
+# Datos de ejemplo: regiones y porcentaje de acceso a Internet
+regiones = ["América", "Europa", "Asia", "África", "Oceanía"]
+acceso_internet = [75, 80, 60, 35, 70]  # porcentaje de población con Internet
 
-plt.figure()
-boxplot_data = []
-labels = []
-for group in sorted(df['Year_Group'].unique()):
-    if pd.notna(group):
-        boxplot_data.append(df[df['Year_Group'] == group][internet_col].dropna())
-        labels.append(f"{int(group.left)}-{int(group.right)-1}")
+plt.figure(figsize=(8,5))
+plt.bar(regiones, acceso_internet, color='skyblue', edgecolor='black')
+plt.title("Acceso a Internet según región")
+plt.xlabel("Región")
+plt.ylabel("Porcentaje de población (%)")
+plt.tight_layout()  # Ajuste para evitar recortes
+plt.show()
 
-plt.boxplot(boxplot_data, labels=labels)
-plt.title('Distribución del Uso de Internet por Periodos', fontsize=14)
-plt.xlabel('Años', fontsize=12)
-plt.ylabel('% de Población', fontsize=12)
-plt.xticks(rotation=45)
-plt.grid(True, linestyle='--', alpha=0.7)
+# -------------------------------
+# Histograma de acceso a Internet por país
+# -------------------------------
+# Datos de ejemplo: acceso a Internet de distintos países
+acceso_paises = [90, 85, 80, 78, 75, 70, 65, 60, 55, 50, 45, 40, 35]
+
+plt.figure(figsize=(8,5))
+plt.hist(acceso_paises, bins=6, color='orange', edgecolor='black')
+plt.title("Distribución del acceso a Internet por país")
+plt.xlabel("Porcentaje de población (%)")
+plt.ylabel("Número de países")
+plt.tight_layout()  # Ajuste para evitar recortes
 plt.show()
