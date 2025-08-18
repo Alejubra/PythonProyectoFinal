@@ -26,7 +26,7 @@ Porcentaje de la población que usa internet (%), por país y año.
 # Visualizaciones planeadas
 1.	Gráfico de líneas: Se utilizará para mostrar la evolución temporal del acceso a internet, esto permitirá identificar tendencias generales.
 2.	Gráfico de barras: Se empleará para comparar el porcentaje de acceso a internet entre años.
-3.	Mapa geográfico: Para visualizar cómo varía el acceso a internet por país en el año más reciente.
+3. Gráfico de barras: ilustrar el acceso a intenert por país para analizar las brechas existentes. 
 4.	Gráfico de dispersión: Mostrará la relación entre el año y el porcentaje de uso de internet, permitiendo analizar la correlación esperada.
 5.	Histograma: Mostrará la distribución de países según su porcentaje de población con acceso a internet en un año determinado. Ayudará a identificar cuántos países están en rangos altos, medios o bajos de acceso.
 # Metodología
