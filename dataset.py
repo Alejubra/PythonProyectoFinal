@@ -14,39 +14,54 @@
 # pip install numpy
 
 ###################################
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Configuración de gráficos para mejor visualización
-plt.style.use('ggplot')  # Estilo "ggplot" (similar a R)
-plt.rcParams['figure.figsize'] = (12, 6)  # Tamaño por defecto de las figuras
+# Configuración de gráficos
+plt.style.use('ggplot')
+plt.rcParams['figure.figsize'] = (12, 6)
 
-# Descargar datos desde Google Drive 
+# Cargar datos
 file_id = '1g2zV414Sz4hSnKsPPZnetWTRNkEVMbHm'
 download_url = f'https://drive.google.com/uc?export=download&id={file_id}'
-# Cargar el dataset desde la url
-df = pd.read_csv(download_url) 
+df = pd.read_csv(download_url)
 
-# Información básica del dataset
-print("Información general del Dataset:")
-df.info()
-print("\nDescripción estadística de las columnas numéricas:")
-print(df.describe())
-print("\nDimensiones del Dataset (filas, columnas):", df.shape)
+# Procesamiento de datos
+grouped = df.groupby('Year')['Individuals using the Internet (% of population)'].agg(['mean', 'std'])
+grouped = grouped.reset_index()  # Convertir el índice 'Year' en columna
 
-# Identificación de valores nulos
-print("\nConteo de valores nulos por columna:")
-print(df.isnull().sum())
+# Gráfico de barras con desviación estándar
+plt.figure(figsize=(12, 6))
+bars = plt.bar(
+    x=grouped['Year'],
+    height=grouped['mean'],
+    color='tab:purple',
+    alpha=0.7,
+    label='Media'
+)
 
-# Mostrar las primeras 10 filas
-print("\nPrimeras 10 filas del DataFrame:")
-print(df.head(10))
+# Añadir barras de error (desviación estándar)
+plt.errorbar(
+    x=grouped['Year'],
+    y=grouped['mean'],
+    yerr=grouped['std'],
+    fmt='none',  # Sin línea conectora
+    ecolor='black',
+    capsize=5,
+    label='±1 Desviación Estándar'
+)
 
-# Identificar tipos de datos por columna
-print("\nTipos de datos por columna:")
-print(df.dtypes)
+# Personalización
+plt.title('Evolución del Uso de Internet (% Población) por Año', fontsize=14)
+plt.xlabel('Año', fontsize=12)
+plt.ylabel('Porcentaje de población (%)', fontsize=12)
+plt.xticks(grouped['Year'], rotation=45)  # Asegurar que todos los años se muestren
+plt.legend()
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.tight_layout()
+
+plt.show()
 
 # Visualización exploratoria básica
 # Suponemos que las columnas incluyen 'year' para el año y 'internet_users_share' para el porcentaje
