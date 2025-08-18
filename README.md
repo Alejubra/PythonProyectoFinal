@@ -24,8 +24,8 @@ Porcentaje de la población que usa internet (%), por país y año.
 2.	Las regiones desarrolladas, como Europa y América del Norte, tendrán mayores porcentajes de acceso a internet que regiones como África o Asia Central.
 3.	Se prevé una correlación positiva significativa entre el porcentaje de la población que utiliza internet y variables socioeconómicas (si se integran otras bases de datos complementarias).
 # Visualizaciones planeadas
-1.	Gráfico de líneas: Se utilizará para mostrar la evolución temporal del acceso a internet por continente y a nivel global. Esto permitirá identificar tendencias generales y brechas entre regiones.
-2.	Gráfico de barras: Se empleará para comparar el porcentaje de acceso a internet entre países en un año específico.
+1.	Gráfico de líneas: Se utilizará para mostrar la evolución temporal del acceso a internet, esto permitirá identificar tendencias generales.
+2.	Gráfico de barras: Se empleará para comparar el porcentaje de acceso a internet entre años.
 3.	Mapa geográfico: Para visualizar cómo varía el acceso a internet por país en el año más reciente.
 4.	Gráfico de dispersión: Mostrará la relación entre el año y el porcentaje de uso de internet, permitiendo analizar la correlación esperada.
 5.	Histograma: Mostrará la distribución de países según su porcentaje de población con acceso a internet en un año determinado. Ayudará a identificar cuántos países están en rangos altos, medios o bajos de acceso.
