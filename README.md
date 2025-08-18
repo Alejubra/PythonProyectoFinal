@@ -45,3 +45,10 @@ La línea de regresión lineal en rojo indica una relación positiva entre el pa
 El internet pasó de ser una herramienta marginal para convertirse en un servicio casi universal en apenas tres décadas. Aun así, la amplitud de la desviación estándar revela desigualdades significativas en el acceso, lo que resalta la importancia de políticas de inclusión digital para cerrar la brecha tecnológica.
 Se concluye además que el tiempo es un factor clave en la adopción tecnológica, aunque la dispersión muestra la existencia de una “brecha digital” entre países con alta y baja penetración de internet.
 
+ Con respecto al gráfico de barras hay una muestra de que el acceso a Internet cmabia bastante según la región. Europa y América presentan los niveles más altos, cercanos al 80% y 75% respectivamente, lo que refleja un mayor desarrollo en infraestructura digital y mayor uso de las tecnologias.Africa es la region que presenta el menor acceso, masomenos de 35%, evidenciando la desigualdad  que existe entre regiones desarrolladas y en desarrollo. Se puede concluir en la necesidad de  mejorar la conectividad en regiones con menor acceso, para garantizar igualdad de oportunidades en educación, comunicación y economía.
+
+ Por ultimo, con respecto al histograma muestra que la mayoría de los países tienen un acceso a internet entre 50% y 90% de la población, con pocos países por debajo del 40%. A pesar de que algunas regiones como África tienen un acceso menor,  la mayoría de los países si logrado alcanzar niveles altos de conectividad. La distribución también habla sobre la existencia de desigualdades internas en los mismos paises,  mientras algunos países alcanzan casi el 90% dotros todavía presentan dificultades para darle conexion a su población.
+
+
+Con respecto al grafico se acceso a internet 
+Por ultimo y con respecto a el grafico de barras sobre distribución del acceso a internet por pais 
