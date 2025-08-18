@@ -13,6 +13,9 @@
 # Instala Numpy 
 # pip install numpy
 
+# Instalar Plotly
+# pip install plotly
+
 ###################################
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -191,3 +194,23 @@ plt.xlabel("Porcentaje de población (%)")
 plt.ylabel("Número de países")
 plt.tight_layout()  # Ajuste para evitar recortes
 plt.show()
+
+# Gráfico mapa
+import plotly.express as px
+
+# Verificar nombre exacto de la columna
+print(df.columns)
+
+# Crear mapa animado por años
+fig = px.choropleth(
+    df,
+    locations="Code",   # Columna con código ISO de país (ej: AFG)
+    color="Individuals using the Internet (% of population)",  # Ajusta al nombre exacto
+    hover_name="Entity",
+    animation_frame="Year",  # Para que sea animado por año
+    color_continuous_scale="Blues",
+    projection="natural earth",
+    title="Acceso a Internet en el Mundo"
+)
+
+fig.show()
