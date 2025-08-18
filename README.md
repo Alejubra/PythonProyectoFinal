@@ -50,5 +50,3 @@ Se concluye además que el tiempo es un factor clave en la adopción tecnológic
  Por ultimo, con respecto al histograma muestra que la mayoría de los países tienen un acceso a internet entre 50% y 90% de la población, con pocos países por debajo del 40%. A pesar de que algunas regiones como África tienen un acceso menor,  la mayoría de los países si logrado alcanzar niveles altos de conectividad. La distribución también habla sobre la existencia de desigualdades internas en los mismos paises,  mientras algunos países alcanzan casi el 90% dotros todavía presentan dificultades para darle conexion a su población.
 
 
-Con respecto al grafico se acceso a internet 
-Por ultimo y con respecto a el grafico de barras sobre distribución del acceso a internet por pais 
