@@ -15,6 +15,7 @@ Porcentaje de la población que usa internet (%), por país y año.
 -Años especificos de crecimiento: Queremos detectar si hay años en los que el porcentaje de población con acceso a intenet creció más que en otros, y si esto se relaciona con otrs eventos especifos de algún año. 
 
 # Plan de Análisis: Uso del Internet a Nivel Global
+Los gráficos evidencian de que forma la conectividad digital no está equitativamente distribuida. Mientras que regiones desarrolladas muestran un alto porcentaje de población con acceso a internet, regiones en desarrollo como Africa enfrentan limitaciones significativas, generando dificultades y desigualdades digitales. Esta desigualdad impacta en educación, comercio y participación social, y sugiere que los esfuerzos que si se deberían enfocar en aumentar la infraestructura tecnológica y el acceso económico en las regiones menos conectadas. La distribución por país evidencia que incluso dentro de regiones con buen acceso, aún existen países que necesitan mejorar sus niveles de conectividad para reducir estas diferencias, como aquí en Costa Rica.
 # Preguntas de investigación
 1.	¿Cómo ha evolucionado el porcentaje de la población con acceso a internet a lo largo del tiempo a nivel global y regional?
 2.	¿Existen diferencias significativas en el acceso a internet entre continentes?
